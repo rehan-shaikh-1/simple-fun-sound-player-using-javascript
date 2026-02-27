@@ -17,31 +17,31 @@ document.addEventListener("keypress", function(event) {
 // 3. Reel Code
 function makeSound(key) {
   switch (key) {
-    case "w":
+    case "q":
       var audio = new Audio('./sounds/Ace.mp3');
       audio.play();
       break;
-    case "a":
+    case "w":
       var audio = new Audio('./sounds/Chamber.mp3');
       audio.play();
       break;
-    case "s":
+    case "e":
       var audio = new Audio('./sounds/neon-movement.mp3');
       audio.play();
       break;
-    case "d":
+    case "r":
       var audio = new Audio('./sounds/Revive.mp3');
       audio.play();
       break;
-    case "j":
+    case "t":
       var audio = new Audio('./sounds/waylay-enemy-ult.mp3');
       audio.play();
       break;
-    case "k":
+    case "y":
       var audio = new Audio('./sounds/tom-1.mp3');
       audio.play();
       break;
-    case "l":
+    case "u":
       var audio = new Audio('./sounds/tom-2.mp3'); // Nice Valorant reference!
       audio.play();
       break;
@@ -53,31 +53,31 @@ function makeSound(key) {
 //Real Code
 // function makeSound(key) {
 //   switch (key) {
-//     case "w":
+//     case "q":
 //       var audio = new Audio('./sounds/tom-1.mp3');
 //       audio.play();
 //       break;
-//     case "a":
+//     case "w":
 //       var audio = new Audio('./sounds/tom-2.mp3');
 //       audio.play();
 //       break;
-//     case "s":
+//     case "e":
 //       var audio = new Audio('./sounds/tom-3.mp3');
 //       audio.play();
 //       break;
-//     case "d":
+//     case "r":
 //       var audio = new Audio('./sounds/tom-4.mp3');
 //       audio.play();
 //       break;
-//     case "j":
+//     case "t":
 //       var audio = new Audio('./sounds/crash.mp3');
 //       audio.play();
 //       break;
-//     case "k":
+//     case "y":
 //       var audio = new Audio('./sounds/kick-bass.mp3');
 //       audio.play();
 //       break;
-//     case "l":
+//     case "u":
 //       var audio = new Audio('./sounds/revive-me-jett.mp3'); // Nice Valorant reference!
 //       audio.play();
 //       break;
