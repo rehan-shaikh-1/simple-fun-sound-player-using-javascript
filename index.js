@@ -2,9 +2,11 @@
 var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
 for (var i = 0; i < numberOfDrumButtons; i++) {
-  document.querySelectorAll(".drum")[i].addEventListener("click", function() {
-    // 'this' refers to the button that was clicked
-    makeSound(this.innerHTML); 
+document.querySelectorAll(".drum")[i].addEventListener("click", function() {
+    // .trim() removes spaces, .toLowerCase() handles casing
+    var buttonPressed = this.innerHTML.trim().toLowerCase(); 
+    console.log("Mouse clicked button: " + buttonPressed); // Debugging line
+    makeSound(buttonPressed);
   });
 }
 
